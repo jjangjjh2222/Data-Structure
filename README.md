@@ -64,6 +64,32 @@
 <br>
 *예외처리 : Insert, Delete 과정에 문제가 생긴다면 -1 반환, 성공 시 0 반환
 
-## 4. Tree
+<img src="https://user-images.githubusercontent.com/88773219/179369241-f834757a-d610-4ee9-a1ee-59fd4e8b3b35.png" width="90%"></img>
 
+<br>
+
+### 심화 Operation
+- search_name(id) : 학번으로 리스트에서 해당 학생 노드를 찾고 이름을 출력 -> 성공 0 / 실패 -1 출력
+- search_id(name) : 이름으로 리스트에서 해당 학생 노드를 찾고 학번을 출력 -> 성공 0 / 실패 -1 출력
+- 특이사항 : 학번은 고유 번호로 학생마다 다르나, 이름은 같은 사람이 있을 수 있습니다. 따라서 find_id의 경우에는 검색한 이름과 동일한 모든 학생들을 출력합니다.
+
+<br>
+
+
+## 4. Tree
+### C언어를 사용하여 Binary Tree의 기본 Operation과 Binary Tree Traversals를 구현한다.
+
+<br>
+
+### Binary Tree 기초 Operation
+- BinaryTree* bt_create(int x) : data가 x이고 subtree가 비어있는 노드를 생성하고 반환합니다.
+- bool bt_is_empty(BinaryTree* bt) : 노드의 subtree가 비었는지 확인합니다. (비었으면 True 반환)
+- BinaryTree* bt_make(BinaryTree* root, BinaryTree* bt1, BinaryTree* bt2) : root의 leftchild가 bt1, right child가 bt2로 설정하고, root를 반환합니다.
+
+<br>
+
+### Binary Tree Traversals
+- void bt_print_preorder(BinaryTree* bt)
+- void bt_print_postorder(BinaryTree* bt)
+- void bt_print_inorder(BinaryTree* bt)
 ## 5. Sorting
