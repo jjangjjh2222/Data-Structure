@@ -92,4 +92,20 @@
 - void bt_print_preorder(BinaryTree* bt)
 - void bt_print_postorder(BinaryTree* bt)
 - void bt_print_inorder(BinaryTree* bt)
+
+<img src="https://user-images.githubusercontent.com/88773219/179369488-4e891b0d-8dc3-48f6-8975-c61e39562fa8.png"></img>
+
+<br>
+
 ## 5. Sorting
+### C언어를 사용하여 Sorting Algorithm을 이중 연결 리스트로 구현합니다.
+
+<br>
+
+### Sorting
+- void sequence_sort(Array* array)
+- void selection_sort(Array* array)
+- void insertion_sort(Array* array)
+- void bubble_sort(Array* array)
+- void quick_sort(Array* array)
+
